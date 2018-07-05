@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Ogni grafo è NON ORIENTATO, per ciascun collegamento esiste anche il suo inverso. -->
+<root>
+	<problem id="0">
+		<!-- Anello con cinque nodi -->
+		<graph size="5">
+			<node id="0">
+				<link to="1" />
+				<link to="4" />
+			</node>
+			<node id="1">
+				<link to="0" />
+				<link to="2" />
+			</node>
+			<node id="2">
+				<link to="1" />
+				<link to="3" />
+			</node>
+			<node id="3">
+				<link to="2" />
+				<link to="4" />
+			</node>
+			<node id="4">
+				<link to="0" />
+				<link to="3" />
+			</node>
+		</graph>
+	</problem>
+	<problem id="1">
+		<!-- Anello con sei nodi -->
+		<graph size="6">
+			<node id="0">
+				<link to="1" />
+				<link to="5" />
+			</node>
+			<node id="1">
+				<link to="0" />
+				<link to="2" />
+			</node>
+			<node id="2">
+				<link to="1" />
+				<link to="3" />
+			</node>
+			<node id="3">
+				<link to="2" />
+				<link to="4" />
+			</node>
+			<node id="4">
+				<link to="3" />
+				<link to="5" />
+			</node>
+			<node id="5">
+				<link to="0" />
+				<link to="4" />
+			</node>
+		</graph>
+	</problem>
+	<problem id="2">
+		<!-- Stella con dodici nodi -->
+		<graph size="12">
+			<node id="0">
+				<link to="1" />
+				<link to="2" />
+				<link to="3" />
+				<link to="4" />
+				<link to="5" />
+				<link to="6" />
+				<link to="7" />
+				<link to="8" />
+				<link to="9" />
+				<link to="10" />
+				<link to="11" />
+			</node>
+			<node id="1">
+				<link to="0" />
+			</node>
+			<node id="2">
+				<link to="0" />
+			</node>
+			<node id="3">
+				<link to="0" />
+			</node>
+			<node id="4">
+				<link to="0" />
+			</node>
+			<node id="5">
+				<link to="0" />
+			</node>
+			<node id="6">
+				<link to="0" />
+			</node>
+			<node id="7">
+				<link to="0" />
+			</node>
+			<node id="8">
+				<link to="0" />
+			</node>
+			<node id="9">
+				<link to="0" />
+			</node>
+			<node id="10">
+				<link to="0" />
+			</node>
+			<node id="11">
+				<link to="0" />
+			</node>
+		</graph>
+	</problem>
+	<problem id="3">
+		<!-- Grafo completo con cinque nodi -->
+		<graph size="5">
+			<node id="0">
+				<link to="1" />
+				<link to="2" />
+				<link to="3" />
+				<link to="4" />
+			</node>
+			<node id="1">
+				<link to="0" />
+				<link to="2" />
+				<link to="3" />
+				<link to="4" />
+			</node>
+			<node id="2">
+				<link to="0" />
+				<link to="1" />
+				<link to="3" />
+				<link to="4" />
+			</node>
+			<node id="3">
+				<link to="0" />
+				<link to="1" />
+				<link to="2" />
+				<link to="4" />
+			</node>
+			<node id="4">
+				<link to="0" />
+				<link to="1" />
+				<link to="2" />
+				<link to="3" />
+			</node>
+		</graph>
+	</problem>
+	<problem id="4">
+		<!-- Catena di dieci nodi -->
+		<graph size="10">
+			<node id="0">
+				<link to="1" />
+			</node>
+			<node id="1">
+				<link to="0" />
+				<link to="2" />
+			</node>
+			<node id="2">
+				<link to="1" />
+				<link to="3" />
+			</node>
+			<node id="3">
+				<link to="2" />
+				<link to="4" />
+			</node>
+			<node id="4">
+				<link to="3" />
+				<link to="5" />
+			</node>
+			<node id="5">
+				<link to="4" />
+				<link to="6" />
+			</node>
+			<node id="6">
+				<link to="5" />
+				<link to="7" />
+			</node>
+			<node id="7">
+				<link to="6" />
+				<link to="8" />
+			</node>
+			<node id="8">
+				<link to="7" />
+				<link to="9" />
+			</node>
+			<node id="9">
+				<link to="8" />
+			</node>
+		</graph>
+	</problem>
+</root>
+
